@@ -11,4 +11,33 @@
 
 body {
 	background-color: Linen;
-	}
+}
+
+/*.right {
+	align-self: right;
+	border-left: auto;
+	border-right: auto;
+}*/
+
+.column{
+	float: left;
+	width:33.33%;
+	padding:5px;
+}
+/*.row::after {
+	coment:"";
+	clear:both;
+	display: table;
+}*/
+.inline {
+	display: flex;
+	flex-direction: row;
+}
+#container {
+	display: flex;
+	flex-direction: column;
+}
+
+#img {
+	width:350px;
+}

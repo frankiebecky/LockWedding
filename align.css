@@ -1,0 +1,14 @@
+.column{
+	float: left;
+	width:33.33%;
+	padding:5px;
+}
+.row::after {
+	conent:"";
+	clear:both;
+	display: table;
+}
+#inline {
+	display: flex;
+	flex-direction: column;
+}
